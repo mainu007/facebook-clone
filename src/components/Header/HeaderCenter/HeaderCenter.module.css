@@ -1,0 +1,37 @@
+.HeaderMiddle{
+    display: flex;
+    flex: 1;
+}
+.HeaderOption{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+}
+.HeaderOption:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+.HeaderOptionActive{
+    border-color: #2e81f4;
+}
+.HeaderOptionActive .Icon{
+    color: #2e81f4;
+}
+.Icon{
+    color: gray;
+}
+.HeaderOption:hover .Icon{
+    color: #2e81f4;
+}
+@media (max-width:1149px){
+    .HeaderMiddle{
+        flex:none
+    }
+}
+@media (max-width:800px){
+    .HeaderMiddle{
+        display: none;
+    }
+}

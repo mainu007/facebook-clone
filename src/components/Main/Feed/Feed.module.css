@@ -1,0 +1,20 @@
+.Feed{
+    display: flex;
+    width: 50%;
+    max-width: 680px;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+}
+@media (max-width:580px){
+    .Feed{
+        padding: 30px 10px;
+    }
+}
+@media (max-width:1149px){
+    .Feed{
+        width: 70%;
+    }
+}

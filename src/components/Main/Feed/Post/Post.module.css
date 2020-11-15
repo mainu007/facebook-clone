@@ -1,0 +1,53 @@
+.Post{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+}
+.PostTop{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+}
+.PostInfo{
+    margin-left: 10px;
+}
+.PostInfo > h3{
+    font-size: medium;
+}
+.PostInfo > p{
+    color: gray;
+    font-size: small;
+}
+.PostText{
+    margin: 10px 0;
+    padding: 15px 25px;
+}
+.PostImage > img{
+    width:100%
+}
+.PostOptions{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgray;
+    font-size: medium;
+    color: gray;
+    padding: 15px;
+}
+.PostOption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex:1;
+    cursor: pointer;
+}
+.PostOption > p{
+    margin-left: 10px;
+}
+.PostOption:hover{
+    background-color: #f1f2f5;
+    border-radius: 10px;
+}

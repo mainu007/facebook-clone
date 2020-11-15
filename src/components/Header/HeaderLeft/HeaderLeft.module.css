@@ -1,0 +1,27 @@
+.HeaderLeft {
+    display: flex;
+    justify-content: space-evenly;
+}
+.HeaderLeft > img {
+    height: 40px;
+    align-self: center;
+}
+.HeaderInput {
+    padding: 10px;
+    margin: 10px;
+    background-color: #eff2f5;
+    display: flex;
+    align-items: center;
+    border-radius: 90px;
+}
+
+.HeaderInput > input{
+    background-color: transparent;
+    border: none;
+    outline-width: 0;
+}
+@media (max-width:1099px){
+    .HeaderInput{
+        display: none;
+    }
+}

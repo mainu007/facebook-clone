@@ -1,0 +1,16 @@
+.HeaderRight{
+    display: flex;
+    align-items: center;
+}
+.HeaderInfo{
+    display: flex;
+    align-items: center;
+}
+.HeaderInfo > h4{
+    margin-left: 10px;
+}
+@media(max-width:1099px){
+    .HeaderInfo{
+        display: none;
+    }
+}

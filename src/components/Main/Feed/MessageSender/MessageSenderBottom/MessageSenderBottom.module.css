@@ -1,0 +1,27 @@
+.MessageSenderBottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MessageSenderOption{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 5px;
+    color: gray;
+}
+.MessageSenderBottom .MessageSenderOption h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.MessageSenderOption:hover{
+    cursor: pointer;
+    background-color: #f1f2f5;
+    border-radius: 20px;
+}
+@media (max-width:580px){
+    .MessageSenderBottom{
+        flex-direction: column;
+    }
+}
